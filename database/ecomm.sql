@@ -124,8 +124,8 @@ CREATE TABLE IF NOT EXISTS `sales` (
 --
 
 INSERT INTO `sales` (`id`, `user_id`, `pay_id`, `sales_date`) VALUES
-(9, 9, 'PAY-1RT494832H294925RLLZ7TZA', '2018-05-10'),
-(10, 9, 'PAY-21700797GV667562HLLZ7ZVY', '2018-05-10');
+(9, 9, 'PAY-1RT494832H294925RLLZ7TZA', '2023-05-10'),
+(10, 9, 'PAY-21700797GV667562HLLZ7ZVY', '2023-05-10');
 
 -- --------------------------------------------------------
 
@@ -154,8 +154,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(1, 'admin@admin.com', '$2y$10$0SHFfoWzz8WZpdu9Qw//E.tWamILbiNCX7bqhy3od0gvK5.kSJ8N2', 1, 'Code', 'Projects', '', '', 'thanos1.jpg', 1, '', '', '2018-05-01'),
-(9, 'harry@den.com', '$2y$10$Oongyx.Rv0Y/vbHGOxywl.qf18bXFiZOcEaI4ZpRRLzFNGKAhObSC', 0, 'Harry', 'Den', 'Silay City, Negros Occidental', '09092735719', 'male2.png', 1, 'k8FBpynQfqsv', 'wzPGkX5IODlTYHg', '2018-05-09'),
+(1, 'admin@admin.com', '$2y$10$0SHFfoWzz8WZpdu9Qw//E.tWamILbiNCX7bqhy3od0gvK5.kSJ8N2', 1, 'Code', 'Projects', '', '', 'thanos1.jpg', 1, '', '', '2023-05-01'),
+(9, 'sandis@gmail.com', '$2y$10$Oongyx.Rv0Y/vbHGOxywl.qf18bXFiZOcEaI4ZpRRLzFNGKAhObSC', 0, 'Sandis', 'L', 'Riga', '09092735719', 'male2.png', 1, 'k8FBpynQfqsv', 'wzPGkX5IODlTYHg', '2023-05-09'),
 (12, 'christine@gmail.com', '$2y$10$ozW4c8r313YiBsf7HD7m6egZwpvoE983IHfZsPRxrO1hWXfPRpxHO', 0, 'Christine', 'becker', 'demo', '7542214500', 'female3.jpg', 1, '', '', '2018-07-09');
 
 --
